@@ -40,6 +40,7 @@ public class firstClassPractice {
         Thread.sleep(1000);
         driver.navigate().back();
         driver.findElement(By.id("submited")).click();
+      System.out.println("element");
         driver.close();
     }
 }
