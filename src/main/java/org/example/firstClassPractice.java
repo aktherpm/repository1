@@ -41,6 +41,7 @@ public class firstClassPractice {
         driver.navigate().back();
         driver.findElement(By.id("submited")).click();
       System.out.println("element");
+      System.out.println("jnekins");
         driver.close();
     }
 }
